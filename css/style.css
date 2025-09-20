@@ -40,7 +40,8 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-size: 80px;
     line-height: 70px;
-    color: #df3f67;
+    color: #91379d;
+
 }
 
 h4 {
@@ -100,7 +101,8 @@ body {
 /* #video_wrap{
     width: 100%; height: 940px; overflow: hidden;margin: 0px auto; position: relative;
 }
-video {height: 100%;position: absolute;left: 50%; margin-left: -960px;} */
+video {height: 100%;position: absolute;left: 50%; margin-left: -960px;} */ 
+
 
 
 #video_wrap {
@@ -314,17 +316,17 @@ nav li a {
 }
 
 .bg-nav a:focus {
-    color: #df3f67;
+    color: #91379d;
     text-decoration: none;
 }
 
 a:hover {
-    color: #df3f67;
+    color: #91379d;
     text-decoration: none;
 }
 
 a.active {
-    color: #df3f67;
+    color: #91379d;
     text-decoration: none;
 }
 
@@ -450,7 +452,7 @@ a.active {
 }
 
 #about span {
-    color: #df3f67;
+    color: #c38ada;
     font-weight: 600;
 }
 
@@ -469,7 +471,7 @@ a.active {
 
 .h-2 {
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .h-3 {
@@ -496,7 +498,7 @@ a.active {
 }
 
 .about-border {
-    border: 10px solid rgba(153, 107, 187, 0.4);
+    border: 10px solid rgba(201, 128, 243, 0.3);
     width: 63%;
     height: 96%;
     max-width: 500px;
@@ -512,7 +514,7 @@ a.active {
 ==================================================*/
 
 #projects {
-    padding: 50px 0 60px;
+    padding: 50px 0;
     background: #f8f8f8;
 }
 
@@ -564,7 +566,7 @@ a.active {
 
 .portfolio_item {
     position: relative;
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 .image-container {
@@ -595,7 +597,7 @@ a.active {
 .portfolio_item img {
     width: 100%;
     display: block;
-    border-radius: 25px 25px 0 0;
+    border-radius: 25px 25px 50px 50px;
     object-fit: cover;
 }
 
@@ -610,7 +612,7 @@ a.active {
     left: 0;
     width: 100%;
     padding: 23px 30px;
-    font-size: 22px;
+    font-size: 21px;
     text-align: center;
     color: #333;
     background: #fff;
@@ -630,6 +632,7 @@ a.active {
     width: 0;
     height: 100%;
     background: #4d77d8;
+    /* background: #1F51FF; */
 
     transition: all 0.3s ease;
     z-index: 1;
@@ -670,11 +673,11 @@ a.active {
 .vc-overlay-title {
     position: absolute;
     /* a 밖에서 절대 위치 */
-    bottom: 0;
+    bottom: 2px;
     left: 0;
     width: 100%;
-    padding: 20px 30px;
-    font-size: 22px;
+    padding: 21px 30px;
+    font-size: 20px;
     text-align: center;
     color: #333;
     background: #fff;
@@ -693,7 +696,9 @@ a.active {
     left: 50%;
     width: 0;
     height: 100%;
-    background: #ff2d70;
+    /* background: #BF00FF; */
+    background: #ba4be2;
+
 
     transition: all 0.3s ease;
     z-index: 1;
@@ -720,11 +725,12 @@ a.active {
 
 
 
+
 /* journey section
 ==================================================*/
 
 #experience {
-    padding: 70px 0 40px;
+    padding: 70px 0 30px;
     background: #f4f4f4;
 }
 
@@ -782,11 +788,13 @@ a.active {
 .timeline-event:hover .timeline-event-icon {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    background-color: #ff2d70;
+    background-color: #d196f1;
+
 }
 
 .timeline-event:hover .timeline-event-thumbnail {
-    box-shadow: inset 40em 0 0 0 #ff2d70;
+    box-shadow: inset 40em 0 0 0 #d196f1;
+
 }
 
 .timeline-event-copy {
@@ -843,7 +851,7 @@ a.active {
     font-size: 12px;
     font-weight: bold;
     background-color: rgb(102, 155, 229);
-    box-shadow: inset 0 0 0 0em #ff2d70;
+    box-shadow: inset 0 0 0 0em #d6a0f3;
     display: inline-block;
     margin-bottom: 1.2em;
     padding: 0.25em 1em 0.2em 1em;
@@ -852,7 +860,7 @@ a.active {
 /* skill section
 ==================================================*/
 #skills {
-    padding: 105px 18px;
+    padding: 125px 18px;
 }
 
 .skill-box {
@@ -879,7 +887,7 @@ a.active {
     width: 150px;
     height: 150px;
     /*원크기조정가능*/
-    background-color: #d5d5d5;
+    background: #e4e4e4;
     /*1.bar 채워지지않은 비워있는 color*/
     border-radius: 50%;
     position: relative;
@@ -889,7 +897,7 @@ a.active {
 }
 
 .skill-box>.skills-circle>ul>li>span {
-    color: #ff2d70;
+    color: #b843e2;
     font-size: 35px;
     padding: 1.5em;
 }
@@ -923,7 +931,7 @@ a.active {
 }
 
 .skill-box>.skills-circle>ul>li>span.bar-circle-left {
-    background: #aaa;
+        background: #e4e4e4;
     /*2.bar 채워지지않은 비워있는 color*/
     /*1,2 동시에 바꿔야함*/
 }
@@ -943,12 +951,6 @@ a.active {
     transform: translate(-50%, -50%);
 }
 
-
-
-/* 도넛 부분 호버 */
-.vc img {
-    border-radius: 0;
-}
 
 /* 반응형 조정 */
 @media (max-width: 500px) {
