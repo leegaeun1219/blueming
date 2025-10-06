@@ -518,19 +518,16 @@ a.active {
     display: inline-block;
     padding: 5px 20px;
     border-radius: 30px;
-    color: white;
-    background-color: #edbfff;
-    color: rgb(95, 11, 179);
     margin-bottom: 10px;
     cursor: pointer;
+    color: #723f86;
+    background-color: #f1d6ff;
 }
 
 .blog p:hover {
     color: white;
-    background-color: #c46fe6;
+    background-color: #d091e9;
 }
-
-
 
 /* projects section
 ==================================================*/
