@@ -32,26 +32,6 @@ font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
 
-@font-face {
-    font-family: 'Pretendard';
-    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff') format('woff');
-    font-weight: 100;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Pretendard';
-    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraLight.woff') format('woff');
-    font-weight: 200;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Pretendard';
-    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
-    font-weight: 300;
-    font-display: swap;
-}
 
 @font-face {
     font-family: 'Pretendard';
@@ -95,6 +75,7 @@ h4 {
     margin-left: 40px;
     font-weight: 600;
 }
+
 
 .col-md-12 h1 span {
     color: #384fb6;
@@ -582,7 +563,7 @@ a.active {
 }
 
 #projects p {
-    font-size: 17px;
+    font-size: 16px;
     margin-bottom: 50px;
 }
 
@@ -688,6 +669,7 @@ a.active {
     transition: color 0.4s ease;
 }
 
+
 .overlay-title::before {
     content: "";
     position: absolute;
@@ -702,7 +684,7 @@ a.active {
     z-index: 1;
 }
 
-.portfolio_item:hover .overlay-title {
+.portfolio_item:hover .overlay-title span{
     color: #fff;
 }
 
