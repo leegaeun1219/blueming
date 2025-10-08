@@ -32,6 +32,48 @@ font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
 
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-display: swap;
+}
+
 
 /* typography
 ==================================================*/
@@ -45,13 +87,13 @@ h1 {
 }
 
 h4 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Pretendard', sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
     position: relative;
     color: #500840;
     margin-left: 40px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .col-md-12 h1 span {
@@ -82,7 +124,7 @@ h4:before {
 ==================================================*/
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pretendard', sans-serif;
     font-size: 14px;
     line-height: 24px;
 }
@@ -456,11 +498,12 @@ a.active {
 #about span {
     color: #c38ada;
     font-weight: 600;
+    font-size: 17px;
 }
 
 .h {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     padding: 20px 0 25px 0;
     line-height: 27px;
 }
@@ -539,7 +582,7 @@ a.active {
 }
 
 #projects p {
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: 50px;
 }
 
