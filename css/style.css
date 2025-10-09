@@ -545,6 +545,7 @@ a.active {
     cursor: pointer;
     color: #723f86;
     background-color: #f1d6ff;
+	font-weight: 400;
 }
 
 .blog p:hover {
